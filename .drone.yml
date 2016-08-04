@@ -2,5 +2,5 @@ debug: true
 
 build:
   image: armhfbuild/ubuntu
-  commands:
-    - apt-get update
+  commands:    
+    - docker build .
