@@ -1,6 +1,6 @@
-debug: true
-
-build:
-  image: armhfbuild/docker
-  commands:    
-    - docker build .
+publish:
+  docker:
+    repo: dgrechka/rpi-squid
+    tag: latest
+    file: Dockerfile
+    insecure: false
