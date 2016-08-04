@@ -1,6 +1,8 @@
 publish:
   docker:
     repo: dgrechka/rpi-squid
+    username: $$DOCKER_USER
+    password: $$DOCKER_PASSWORD
     tag: latest
     file: Dockerfile
     insecure: false
