@@ -1,4 +1,4 @@
-FROM armhfbuild/grafana
+FROM armhfbuild/ubuntu
 MAINTAINER Dmitry A. Grechka <dmitry@grechka.family>
 
 RUN apt-get update && apt-get install -y \    
