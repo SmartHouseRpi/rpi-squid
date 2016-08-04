@@ -1,6 +1,6 @@
 debug: true
 
 build:
+  image: armhfbuild/ubuntu
   commands:
-    - apk update && apk add curl tar gzip
-    - export VERSION=$$TAG
+    - apt-get update
