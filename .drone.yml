@@ -1,6 +1,6 @@
 debug: true
 
 build:
-  image: armhfbuild/ubuntu
+  image: armhfbuild/docker
   commands:    
     - docker build .
