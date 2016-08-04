@@ -1,0 +1,6 @@
+debug: true
+
+build:
+  commands:
+    - apk update && apk add curl tar gzip
+    - export VERSION=$$TAG
