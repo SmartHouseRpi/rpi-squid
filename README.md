@@ -1,7 +1,7 @@
 # rpi-squid
 ## Squid docker image for Raspberry PI (ARMv7)
 
-[![Build Status](http://armbuilder.grechka.family:8081/api/badges/dgrechka/rpi-squid/status.svg)](http://armbuilder.grechka.family:8081/dgrechka/rpi-squid)
+[![Build Status](http://armbuilder.grechka.family:8081/api/badges/SmartHouseRpi/rpi-squid/status.svg)](http://armbuilder.grechka.family:8081/SmartHouseRpi/rpi-squid)
 
 Docker hub: https://hub.docker.com/r/dgrechka/rpi-squid/
 
